@@ -1,0 +1,22 @@
+﻿<Window x:Class="Крестики_нолики.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Крестики_нолики"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="but2" Content="" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but2"/>
+        <Button x:Name="but1" Content="" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but1"/>
+        <Button x:Name="but3" Content="" HorizontalAlignment="Left" Margin="220,10,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but3"/>
+        <Button x:Name="but4" Content="" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but4"/>
+        <Button x:Name="but5" Content="" HorizontalAlignment="Left" Margin="115,115,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but5"/>
+        <Button x:Name="but6" Content="" HorizontalAlignment="Left" Margin="220,115,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but6"/>
+        <Button x:Name="but8" Content="" HorizontalAlignment="Left" Margin="115,220,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but8"/>
+        <Button x:Name="but9" Content="" HorizontalAlignment="Left" Margin="220,220,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but9"/>
+        <Button x:Name="but7" Content="" HorizontalAlignment="Left" Margin="10,220,0,0" VerticalAlignment="Top" Width="100" Height="100" FontSize="46" Click="Button_Click" AutomationProperties.Name="but7"/>
+        <Button Content="Restart" HorizontalAlignment="Left" Margin="334,10,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="Button_Click_1"/>
+        <TextBlock x:Name="txt" HorizontalAlignment="Left" Margin="359,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
